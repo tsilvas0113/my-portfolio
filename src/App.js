@@ -1,5 +1,6 @@
 import React from "react";
 import Aboutme from "./components/Aboutme";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Myprojects from "./components/Myprojects";
@@ -13,6 +14,7 @@ function App() {
       <Skills />
       <Aboutme />
       <Myprojects />
+      <Footer />
     </div>
   );
 }
