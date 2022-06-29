@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function Footer () {
     return (
-        <footer>
+        <footer className="footer">
             <div className="footer__text">© 2022, Created by Tristan Silvas</div>
             <ul className="social-list">
                 <li className="social-list__item"><a className="social-list__link"
