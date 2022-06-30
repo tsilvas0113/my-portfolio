@@ -298,8 +298,11 @@ nav {
 }
 
 .footer > a {
-  color: white;
   text-decoration: none;
+}
+
+.fa-icon {
+  color: aliceblue;
 }
 
 .footer__text {

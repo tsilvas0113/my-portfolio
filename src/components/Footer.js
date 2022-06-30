@@ -9,13 +9,13 @@ function Footer () {
             <div className="footer__text">© 2022, Created by Tristan Silvas</div>
             <ul className="social-list">
                 <li className="social-list__item"><a className="social-list__link"
-                href="https://www.linkedin.com/in/tristan-silvas-004273241/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                href="https://www.linkedin.com/in/tristan-silvas-004273241/"><FontAwesomeIcon icon={faLinkedin} className='fa-icon'/></a></li>
                 <li className="social-list__item"><a className="social-list__link"
-                href="https://twitter.com/Chiknnuggets99"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                href="https://twitter.com/Chiknnuggets99"><FontAwesomeIcon icon={faTwitter} className='fa-icon'/></a></li>
                 <li className="social-list__item"><a className="social-list__link"
-                href="mailto:tsilvas0113@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+                href="mailto:tsilvas0113@gmail.com"><FontAwesomeIcon icon={faEnvelope} className='fa-icon'/></a></li>
                 <li className="social-list__item"><a className="social-list__link"
-                href="https://github.com/tsilvas0113"><FontAwesomeIcon icon={faGithub} /></a></li>
+                href="https://github.com/tsilvas0113"><FontAwesomeIcon icon={faGithub} className='fa-icon'/></a></li>
             </ul>
         </footer>
     )
