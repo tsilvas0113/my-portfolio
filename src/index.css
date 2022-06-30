@@ -141,6 +141,9 @@ header {
 
 .logo {
   max-width: 150px;
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+  color: var(--clr-accent);
 }
 
 .nav {
