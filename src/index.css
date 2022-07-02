@@ -373,9 +373,22 @@ header {
   text-align: center;
 }
 
-.portfolio {
+.port-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2.5rem;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 2.5em
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.port-pic {
+  border-radius: 10px 10px 0 0;
+  height: 225px
 }
 
 .portfolio__item {

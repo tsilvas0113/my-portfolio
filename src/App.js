@@ -25,7 +25,9 @@ function App() {
       <Skills />
       <Aboutme />
       <Myprojects />
-      {proj}
+      <section className="port-list">
+        {proj}
+      </section>
       <Footer />
     </div>
   );
