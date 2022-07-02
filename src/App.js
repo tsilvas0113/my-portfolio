@@ -4,13 +4,14 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Myprojects from "./components/Myprojects";
+import Proj from "./components/Proj";
 import Skills from "./components/Skills";
 import projects from "./Projects";
 
 function App() {
   const proj = projects.map(item => {
     return (
-      <Myprojects 
+      <Proj
         key={item.id}
         {...item}
       />
@@ -23,6 +24,7 @@ function App() {
       <Intro />
       <Skills />
       <Aboutme />
+      <Myprojects />
       {proj}
       <Footer />
     </div>
