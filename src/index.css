@@ -405,6 +405,13 @@ header {
   grid-template-areas: 
     'img'
     'content';
+  transform: scale(1);
+  transition: all 500ms cubic-bezier(0.57, 2.2, 0.26, 0.99);
+}
+
+.portfolio:hover {
+  box-shadow: var(--bs);
+  transform: scale(1.0125);
 }
 
 .port-pic {
