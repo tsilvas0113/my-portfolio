@@ -371,46 +371,91 @@ header {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
+  padding-bottom: 1em;
 }
 
 .port-list {
   display: grid;
-  padding: 2.5rem;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(0, 1fr);
-  gap: 2.5em
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 2.5em;
+  padding: 2.5em;
+  justify-items: center;
+  padding-top: 0;
+  background-color: var(--clr-dark);
+  color: white;
+}
+
+@media (min-width: 1440px) {
+  .port-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1920px) {
+  .port-list {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+  }
 }
 
 .portfolio {
-  display: flex;
-  flex-direction: column;
+  max-width: min(80vw, 25em);
+  display: grid;
+  grid-template-areas: 
+    'img'
+    'content';
 }
 
 .port-pic {
+  grid-area: img;
   border-radius: 10px 10px 0 0;
-  height: 225px
-}
-
-.portfolio__item {
-  background: var(--clr-accent);
+  display: block;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+  line-height: 0;
 }
 
-.portfolio__img {
-  transition: 
-    transform 750ms cubic-bezier(.5, 0, .5, 1),
-    opacity 250ms linear;
+.port-info {
+  grid-area: content;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--clr-accent);
+  border-radius: 0 0 10px 10px;
 }
 
-.portfolio__item:focus {
-  position: relative;
-  z-index: 2;
+.port-title {
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+  margin: 0;
+  line-height: 1;
 }
 
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-  transform: scale(1.2);
-  opacity: .75;
+.port-desc {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.port-btns {
+  display: flex;
+  align-items: initial;
+  gap: 0.5em;
+}
+
+.port-btns > a {
+  padding: 0.5rem 0.75rem 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  font-weight: var(--fw-bold);
+  border-radius: 10px;
 }
 
 .footer {
