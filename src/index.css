@@ -315,6 +315,21 @@ header {
   margin: 0 auto;
 }
 
+.skill-logo {
+  width: 171.2px;
+  height: 171.2px;
+  margin-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 780px) {
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+}
+
 @media (min-width: 800px) {
   .skills {
     display: flex;
