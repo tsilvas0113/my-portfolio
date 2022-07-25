@@ -11,7 +11,7 @@ function Footer () {
                 <li className="social-list__item"><a className="social-list__link"
                 href="https://www.linkedin.com/in/tristan-silvas-004273241/"><FontAwesomeIcon icon={faLinkedin} className='fa-icon'/></a></li>
                 <li className="social-list__item"><a className="social-list__link"
-                href="https://twitter.com/Chiknnuggets99"><FontAwesomeIcon icon={faTwitter} className='fa-icon'/></a></li>
+                href="https://twitter.com/SilvasTristan"><FontAwesomeIcon icon={faTwitter} className='fa-icon'/></a></li>
                 <li className="social-list__item"><a className="social-list__link"
                 href="mailto:tsilvas0113@gmail.com"><FontAwesomeIcon icon={faEnvelope} className='fa-icon'/></a></li>
                 <li className="social-list__item"><a className="social-list__link"
