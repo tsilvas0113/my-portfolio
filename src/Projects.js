@@ -19,7 +19,7 @@ const projects = [
         id: 3,
         projectImg: './images/project3.png',
         projectTitle: 'Meme Generator',
-        projectDescription: "I created this project as part of the Learn React for free module from Scrimba. React hooks such as useState to track function component's state and useEffect for API calls, forms, and eventlisteners were used for this project. I also added responsive design for different screen sizes.",
+        projectDescription: "I created this project as part of the Learn React.js for free module from Scrimba. React.js hooks such as useState to track function component's state and useEffect for API calls, forms, and eventlisteners were used for this project. I also added responsive design for different screen sizes.",
         demoLink: 'https://tsilvas0113.github.io/meme-generator/',
         githubLink: 'https://github.com/tsilvas0113/meme-generator'
     },
@@ -27,7 +27,7 @@ const projects = [
         id: 4,
         projectImg: './images/project4.png',
         projectTitle: 'Tenzies',
-        projectDescription: "I built this project as part of the Learn React for free module from Scrimba. React hooks, props, and conditional renderings were used for this project. I also added responsive design for different screen sizes, a timer, a roll counter, and a feature to track the user's best time.",
+        projectDescription: "I built this project as part of the Learn React.js for free module from Scrimba. React.js hooks, props, and conditional renderings were used for this project. I also added responsive design for different screen sizes, a timer, a roll counter, and a feature to track the user's best time.",
         demoLink: 'https://tsilvas0113.github.io/tenzies/',
         githubLink: 'https://github.com/tsilvas0113/tenzies'
     },
@@ -35,7 +35,7 @@ const projects = [
         id: 5,
         projectImg: './images/project5.png',
         projectTitle: 'Quizzical',
-        projectDescription: 'This project was built using React. It includes features such as hooks, props, conditional rendering, and components. API calls to Open Trivia Database were also utilized to create the quiz questions and answers. Responsive CSS design is also used to accommodate different screen sizes.',
+        projectDescription: 'This project was built using React.js. It includes features such as hooks, props, conditional rendering, and components. API calls to Open Trivia Database were also utilized to create the quiz questions and answers. Responsive CSS design is also used to accommodate different screen sizes.',
         demoLink: 'https://tsilvas0113.github.io/quizzical/',
         githubLink: 'https://github.com/tsilvas0113/quizzical'
     }

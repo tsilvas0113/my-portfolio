@@ -21,7 +21,7 @@ function Skills () {
                 </div>
 
                 <div className="skill">
-                    <h3>React</h3>
+                    <h3>React.js</h3>
                     <img className="skill-logo" src="./images/react-logo.png" alt="" />
                 </div>
 
