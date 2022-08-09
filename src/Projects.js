@@ -3,7 +3,7 @@ const projects = [
         id: 1,
         projectImg: './images/project2.png',
         projectTitle: 'Portfolio Website',
-        projectDescription: 'This is my portfolio website that I created to showcase some of the different skills I know and projects that I have worked on. I created it with React using different features such as hooks, props, and components. CSS was also used to provide different and engaging animations.',
+        projectDescription: 'This is my portfolio website that I created to showcase some of the different skills I know and projects that I have worked on. I created it with React using different features such as props, and components. Additionally, Font Awesome CDNs were utilized to show company logos for links in the footer. CSS was also used to provide different and engaging animations.',
         demoLink: 'https://tsilvas0113.github.io/my-portfolio/',
         githubLink: 'https://github.com/tsilvas0113/my-portfolio'
     },
